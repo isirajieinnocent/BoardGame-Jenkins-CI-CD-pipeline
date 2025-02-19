@@ -9,11 +9,11 @@ ________________________________________
 ________________________________________
 **2. Jenkins - CI Pipeline**
 •	Build Trigger: Jenkins pulls the code from GitHub and starts the pipeline. The pipeline automates the following tasks:
-o	Code Checkout: The code is fetched from GitHub.
-o	Compilation (Maven): The code is compiled using Maven, a build automation tool specifically for Java applications.
-o	Unit Tests: Tests are executed to ensure basic functionality is intact.
+Code Checkout: The code is fetched from GitHub.
+Compilation (Maven): The code is compiled using Maven, a build automation tool specifically for Java applications.
+Unit Tests: Tests are executed to ensure basic functionality is intact.
 ________________________________________
-**3. Code Quality Check (SonarQube)*
+**3. Code Quality Check (SonarQube)**
 •	After the build and unit testing, the code undergoes a static code analysis in SonarQube to check for code quality, security vulnerabilities, and bugs.
 •	The results include metrics like technical debt and code coverage, ensuring the application meets quality standards before progressing.
 ________________________________________
@@ -31,9 +31,9 @@ ________________________________________
 ________________________________________
 **7. Kubernetes Deployment**
 •	The Docker image is deployed to a Kubernetes cluster, which orchestrates containerized applications. Kubernetes ensures:
-o	Scalability
-o	High availability
-o	Resource optimization
+Scalability
+High availability
+Resource optimization
 •	Once deployed, the application is verified by running smoke or functional tests.
 ________________________________________
 **8. Monitoring and Alerts**
