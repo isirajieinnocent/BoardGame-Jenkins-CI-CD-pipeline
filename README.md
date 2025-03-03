@@ -1,6 +1,6 @@
 <h1> Project Overview </h1>
 
-This project is a CI/CD pipeline designed to automate the build, test, and deployment of a Java application using Maven, SonarQube, Nexus, Docker, and Kubernetes. The pipeline ensures code quality, security, and efficient deployment while leveraging modern DevOps tools and practices.
+This project is a CI/CD pipeline designed to automate the build, test, and deployment of a Java application using Maven, SonarQube, Nexus, Docker, and Kubernetes. The pipeline ensures code quality, security, and efficient deployment while leveraging modern DevOps tools and practices. Additionally, Prometheus and Grafana are integrated for monitoring and visualizing application performance and infrastructure metrics.
 
 <h1> The Architecture </h1> 
 
